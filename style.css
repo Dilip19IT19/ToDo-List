@@ -169,45 +169,6 @@ header h1{
  
  }
  
-
-.pop-up{
-  width: 300px;
-  height: 60px;
-  background-color: rgb(41, 91, 118);
-  border-radius: 6px;
-  display: none;
-}
-
-.pop-up input{
- 
-  color: black;
-  text-align: center;
-  height: 40px;
-  width: 60%;
-  margin: 10px;
-  border-radius: 10px;
-  border: none;
-}
-
-.pop-up button
-{
- 
-  padding:8px;
-  color: black;
-  background-color: rgb(22, 118, 208);
-  text-align: center;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  transition: transform 300ms ease;
- 
-}
-
-.pop-up button:active{
-  transform:scale(0.7)
-}
-
-
  .warning{
   position: absolute;
   top: 50%;
@@ -242,6 +203,8 @@ header h1{
  .warning button:active{
   transform: scale(0.7);
  }
+
+
 
 @media screen and (max-width:600px) {
 
@@ -335,14 +298,12 @@ header h1{
   
 }
 
-.contain-box p
-  {
-    color: white;
-    font-size: small;
+.contain-box p{
+  color: white;
+  font-size: small;
   
-  }
+}
 
-  
 .warning{
   position: absolute;
   top: 50%;
@@ -377,9 +338,5 @@ header h1{
  .warning button:active{
   transform: scale(0.7);
  }
-  
-
-
-  
   
 }
